@@ -5,8 +5,7 @@ permalink: /projects/
 ---
 
 # Data Science Projects
-
-Explore my portfolio of data science and machine learning projects. Each project demonstrates different aspects of data science, from exploratory data analysis to advanced machine learning implementations.
+Explore my portfolio of data analysis and visualization projects. Each project demonstrates different aspects of data analysis, from simple plots to advanced regression machine learning implementations.
 
 <div class="projects-list">
   {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
@@ -41,14 +40,10 @@ Explore my portfolio of data science and machine learning projects. Each project
 ---
 
 ## Project Categories
-
-My projects span multiple domains of data science:
-
-- **Machine Learning:** Classification, regression, and clustering problems
-- **Deep Learning:** Neural networks for computer vision and NLP
+My projects span multiple domains of data analysis:
+- **Data Visualization:** Plots and Dashboards
+- **Exploratory Data Analysis (EDA):** Learn the quirks and details of the dataset
 - **Time Series:** Forecasting and anomaly detection
-- **NLP:** Text analysis and natural language understanding
-- **Computer Vision:** Image classification and object detection
 - **Data Engineering:** ETL pipelines and data processing
 
 {% if site.author.github %}Want to see the code? All projects are available on [GitHub](https://github.com/{{ site.author.github }}).{% endif %}
