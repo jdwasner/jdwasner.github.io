@@ -1,0 +1,41 @@
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+Gemfile.lock
+*.gem
+.bundle/
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Node modules (if using any Node.js tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archives (optional - keep resume archive if needed)
+# assets/resume/archive/
