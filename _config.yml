@@ -1,13 +1,13 @@
 # Site Settings
-title: "Data Science Portfolio - J.D. Wasner"
-description: "Professional portfolio showcasing data science and machine learning projects"
+title: "Justin Wasner's Project Portfolio"
+description: "Project portfolio showcasing data analysis projects"
 url: "https://jdwasner.github.io"
 baseurl: ""
 
 # Author Information
 author:
-  name: "J.D. Wasner"
-  email: "contact@example.com"
+  name: "Justin Wasner"
+  email: "jdwasner@gmail.com"
   github: "jdwasner"
   linkedin: "jdwasner"
 
