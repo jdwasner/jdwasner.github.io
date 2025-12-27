@@ -1,0 +1,63 @@
+# Site Settings
+title: "Data Science Portfolio - J.D. Wasner"
+description: "Professional portfolio showcasing data science and machine learning projects"
+url: "https://jdwasner.github.io"
+baseurl: ""
+
+# Author Information
+author:
+  name: "J.D. Wasner"
+  email: "contact@example.com"
+  github: "jdwasner"
+  linkedin: "jdwasner"
+
+# Build Settings
+markdown: kramdown
+theme: jekyll-theme-midnight
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects
+  - title: "About"
+    url: /about
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+# Kramdown Settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
