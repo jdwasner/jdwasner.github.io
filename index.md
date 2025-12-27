@@ -28,13 +28,13 @@ Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical ana
 
 ## About Me
 
-I'm an engineer with a strong foundation in root cause analysis, large data, and data visualization. My work focuses on culminating large data sets, conducting exploratory data analysis, and creating data-driven dashbaords to help solve problems.
+I'm an engineer with a strong foundation in root cause analysis, large data, and data visualization. My work focuses on culminating large data sets, conducting exploratory data analysis (EDA), and creating data-driven dashboards to help solve problems.
 
-**Core Competencies:**
-- Data Analysis: Python, SQL, MiniTab, Excel
-- Data Engineering: ETL Pipelines, Data Modeling, SQL Query Optimization
-- Dashboard Building: Power BI, FineReport
-- Root Cause Analysis: 5Why, Fishbone, PFMEA
+### Core Competencies:
+- **Data Analysis:** Python, SQL, MiniTab, Excel
+- **Data Engineering:** ETL Pipelines, Data Modeling, SQL Query Optimization
+- **Dashboard Building:** Power BI, FineReport
+- **Root Cause Analysis:** 5Why, Fishbone, PFMEA
 
 [Learn More About Me](/about) | [View All Projects](/projects)
 
