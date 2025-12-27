@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to My Data Science Portfolio
 
-Hi, I'm **J.D. Wasner**, a passionate data scientist with expertise in machine learning, statistical analysis, and data visualization. I specialize in turning complex data into actionable insights that drive business decisions.
+Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical analysis and data visualization. I specialize in turning complex data into actionable insights that drive business decisions.
 
 ## Featured Projects
 
@@ -28,13 +28,13 @@ Hi, I'm **J.D. Wasner**, a passionate data scientist with expertise in machine l
 
 ## About Me
 
-I'm a data scientist with a strong foundation in statistical modeling, machine learning, and data engineering. My work focuses on building predictive models, conducting exploratory data analysis, and creating data-driven solutions for real-world problems.
+I'm an engineer with a strong foundation in root cause analysis, large data, and data visualization. My work focuses on culminating large data sets, conducting exploratory data analysis, and creating data-driven dashbaords to help solve problems.
 
 **Core Competencies:**
-- Machine Learning & Deep Learning
-- Statistical Analysis & Hypothesis Testing
-- Data Visualization & Storytelling
-- Python, R, SQL, and Cloud Technologies
+- Data Analysis: Python, SQL, MiniTab, Excel
+- Data Engineering: ETL Pipelines, Data Modeling, SQL Query Optimization
+- Dashboard Building: Power BI, FineReport
+- Root Cause Analysis: 5Why, Fishbone, PFMEA
 
 [Learn More About Me](/about) | [View All Projects](/projects)
 
