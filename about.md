@@ -82,9 +82,9 @@ My journey in data science began with a fascination for uncovering patterns in d
 I'm always interested in new opportunities, collaborations, and interesting data problems to solve.
 
 <div class="contact-section">
-  <p><strong>Email:</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/{{ site.author.github }}">@{{ site.author.github }}</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/{{ site.author.linkedin }}">{{ site.author.linkedin }}</a></p>
+  {% if site.author.email %}<p><strong>Email:</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>{% endif %}
+  {% if site.author.github %}<p><strong>GitHub:</strong> <a href="https://github.com/{{ site.author.github }}">@{{ site.author.github }}</a></p>{% endif %}
+  {% if site.author.linkedin %}<p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/{{ site.author.linkedin }}">{{ site.author.linkedin }}</a></p>{% endif %}
 </div>
 
 <div class="resume-section">

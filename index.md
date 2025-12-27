@@ -51,8 +51,10 @@ I'm a data scientist with a strong foundation in statistical modeling, machine l
 <div class="contact-info">
   <p>Interested in collaboration or have a project in mind? Let's connect!</p>
   <p>
-    <a href="https://github.com/{{ site.author.github }}">GitHub</a> | 
-    <a href="https://linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a> | 
-    <a href="mailto:{{ site.author.email }}">Email</a>
+    {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif %}
+    {% if site.author.github and site.author.linkedin %} | {% endif %}
+    {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif %}
+    {% if site.author.linkedin and site.author.email %} | {% endif %}
+    {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% endif %}
   </p>
 </div>

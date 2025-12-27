@@ -51,4 +51,4 @@ My projects span multiple domains of data science:
 - **Computer Vision:** Image classification and object detection
 - **Data Engineering:** ETL pipelines and data processing
 
-Want to see the code? All projects are available on [GitHub](https://github.com/{{ site.author.github }}).
+{% if site.author.github %}Want to see the code? All projects are available on [GitHub](https://github.com/{{ site.author.github }}).{% endif %}

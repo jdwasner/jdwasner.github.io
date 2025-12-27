@@ -80,7 +80,7 @@
 
         <!-- Footer -->
         <footer>
-            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
+            <p>&copy; {{ 'now' | date: "%Y" }}{% if site.author.name %} {{ site.author.name }}{% endif %}. All rights reserved.</p>
             <p>Built with <a href="https://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
         </footer>
     </div>
