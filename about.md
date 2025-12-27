@@ -8,77 +8,55 @@ permalink: /about/
 
 ## Professional Background
 
-I'm a data scientist with a passion for extracting meaningful insights from complex datasets. With a strong background in statistics, machine learning, and software engineering, I help organizations make data-driven decisions that create real business value.
+I'm an enginner with a passion for extracting meaningful insights from complex datasets. With a strong background in root cause analysis (RCA), large data, and data visualization. I help organizations make data-driven decisions that create real business value.
 
 My journey in data science began with a fascination for uncovering patterns in data and has evolved into a comprehensive skill set spanning the entire data science pipeline—from data collection and cleaning to model deployment and monitoring.
 
 ## Skills & Expertise
 
 ### Programming & Tools
-- **Languages:** Python, R, SQL, JavaScript
-- **ML/DL Frameworks:** Scikit-learn, TensorFlow, PyTorch, Keras, XGBoost
-- **Data Processing:** Pandas, NumPy, Dask, Apache Spark
-- **Visualization:** Matplotlib, Seaborn, Plotly, Tableau, D3.js
-- **Cloud Platforms:** AWS, Google Cloud Platform, Azure
-- **Version Control:** Git, GitHub, GitLab
-- **Databases:** PostgreSQL, MySQL, MongoDB, Redis
+- **Languages:** Python, SQL, DAX
+- **Data Processing:** Pandas, NumPy, CSV, Parquet, Feather
+- **Visualization:** Matplotlib, PowerBI, MiniTap
+- **Databases:** MySQL, Oracle
 
 ### Data Science Capabilities
-- **Machine Learning:** Supervised & Unsupervised Learning, Ensemble Methods, Model Optimization
-- **Deep Learning:** Neural Networks, CNNs, RNNs, LSTMs, Transfer Learning
-- **Natural Language Processing:** Text Classification, Sentiment Analysis, Named Entity Recognition
-- **Computer Vision:** Image Classification, Object Detection, Segmentation
 - **Time Series Analysis:** Forecasting, Anomaly Detection, Trend Analysis
 - **Statistical Modeling:** A/B Testing, Hypothesis Testing, Regression Analysis
-- **MLOps:** Model Deployment, Monitoring, CI/CD for ML
 
 ## Education
-
-**Master of Science in Data Science**  
-*University Name* | Graduated: 2021
-
-**Bachelor of Science in Computer Science**  
-*University Name* | Graduated: 2019
+**Bachelor of Science in Mechanical Engineering**  
+*Louisiana Tech University* | Graduated: 2019
 
 ## Experience
 
-### Senior Data Scientist | Company Name
-*2022 - Present*
-
-- Lead data science initiatives and mentor junior team members
-- Develop and deploy machine learning models at scale
+### Senior Process Engineer | AESC US
+*2021 - Present*
+- Built and maintained interactive dashboards for departmental stakeholders
+- Lead data learning initiatives and mentor junior team members (taught python, PowerBI, SQL, FineReport, and other software to coworkers)
+- Designed and implemented ETL pipelines using python and SQL to ingest, clean, and normalize large datasets
 - Collaborate with cross-functional teams to deliver data-driven solutions
-- Present findings to stakeholders and executive leadership
+- Created departmental Wiki to capture shared information and learning materials for new enginners
 
-### Data Scientist | Company Name
-*2020 - 2022*
+### Project Engineer | Allison Transmission
+*2020 - 2021*
+- Managed cross-functional six sigma team to determine primary causes of least profitable product in the plant
+- Helped develop new project management system to ensure critical metrics and sub processes were captured
 
-- Built predictive models for customer behavior analysis
-- Implemented automated data pipelines for real-time analytics
-- Conducted A/B testing and statistical analysis for product features
-- Created interactive dashboards for business intelligence
-
-### Data Analyst | Company Name
+### Mechanical Enginner | Lockheed Martin MFC
 *2019 - 2020*
+- Designed, prototyped, and built tooling to support production and reduce cost of manufacture
+- Co-leader of a Performance Management Team designed to increase efficiency and provide a transparent line of communication between support staff and operators
 
-- Performed exploratory data analysis on large datasets
-- Generated reports and visualizations for stakeholder decision-making
-- Developed SQL queries for data extraction and transformation
+### Technical Intern | Northrop Grumman
+*Summer 2018*
+- Assist tool engineers in professional environment by following up on late-to-start tasks
 
 ## Certifications
-
-- AWS Certified Machine Learning - Specialty
-- TensorFlow Developer Certificate
-- Google Professional Data Engineer
-
-## Publications & Talks
-
-- Speaker at Data Science Conference 2023: "Scaling ML Models in Production"
-- Published research on time series forecasting methods
-- Regular contributor to data science blogs and open-source projects
+- MS Power BI PL-300 (completion in Mar 2026)
+- IBM Data Science Professional (completion in June 2026)
 
 ## Contact Information
-
 I'm always interested in new opportunities, collaborations, and interesting data problems to solve.
 
 <div class="contact-section">
