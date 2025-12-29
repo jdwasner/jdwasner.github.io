@@ -81,6 +81,7 @@ for coord in coordinates:
 ```
 
 This allowed me to compare payoff order, total interest, and time to completion across all strategies.
+
 ### 3. Payment Range Iteration
 Next, I simulated different monthly payment amounts to understand how increased payments affect payoff time and total interest.
 
@@ -119,6 +120,7 @@ All results — amortization tables, strategy comparisons, and payment simulatio
 
 ```python
 #%% Save Results
+
 # Create Export folder if it doesn't exist
 export_folder = os.path.join(path, 'Export')
 os.makedirs(export_folder, exist_ok=True)
@@ -139,6 +141,7 @@ This project gave me:
 - A clear understanding of how monthly payment changes affect payoff time
 - A reusable tool for future financial planning
 It also eliminated hours of manual Excel work and replaced it with a scalable, automated solution.
+
 ## Technologies Used
 - **Python**
 - **Pandas & NumPy**
@@ -147,6 +150,7 @@ It also eliminated hours of manual Excel work and replaced it with a scalable, a
 ## Code Repository
 Source code available on GitHub:
 https://github.com/jdwasner/Loan_Calculator
+
 ## Future Improvements
 - Add visualizations (interest curves, payoff timelines, strategy comparisons)
 - Build a simple UI or web app for non‑technical users
