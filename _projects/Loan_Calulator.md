@@ -37,6 +37,7 @@ Each loan is defined by its current balance, interest rate, and minimum monthly 
 | Loan06  | 14312.28 | 0.0419 | 416.47  |
 | Loan07  | 5323.07  | 0.0404 | 57.45   |
 | Loan08  | 5536.36  | 0.0351 | 66.33   |
+
 ### 2. Weight Distribution Iteration
 I tested 21 payoff strategies by varying the weighting between:
 - **Interest rate priority** (similar to the avalanche method)
@@ -79,9 +80,11 @@ for coord in coordinates:
     df_iter_table.loc[len(df_iter_table)] = new_row
     df_iter_Priority.loc[len(df_iter_Priority)] = result[2]
 ```
+
 This allowed me to compare payoff order, total interest, and time to completion across all strategies.
 ### 3. Payment Range Iteration
 Next, I simulated different monthly payment amounts to understand how increased payments affect payoff time and total interest.
+
 ```python
 #%% Payment Range Iteration
 
@@ -110,9 +113,11 @@ for i in Payment_Range:
     
     df_iter_Payment.loc[len(df_iter_Payment)] = new_row
 ```
+
 This produced a full payoff curve showing diminishing returns as payments increased.
 ### 4. Save Results
 All results — amortization tables, strategy comparisons, and payment simulations — are exported to CSV for easy review.
+
 ```python
 #%% Save Results
 # Create Export folder if it doesn't exist
@@ -128,6 +133,7 @@ best_table[1].to_csv(os.path.join(export_folder, 'Amortization Table.csv'))
 best_table[0].to_csv(os.path.join(export_folder, 'Summary.csv'))
 df_iter_table.to_csv(os.path.join(export_folder, 'Weight Iterations.csv'))
 ```
+
 ## Impact
 This project gave me:
 - A data‑driven payoff strategy tailored to my loans
