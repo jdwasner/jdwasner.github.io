@@ -8,7 +8,6 @@ technologies:
   - Pandas
   - Numpy
 github: https://github.com/jdwasner/Loan_Calculator
-demo: ""
 ---
 ## Overview
 After graduating college and purchasing a vehicle, I found myself managing several loans at once. I suspected there was an optimal payoff strategy that would minimize total interest and reduce the time to become debt‑free — but manually iterating scenarios in Excel was slow and error‑prone.
