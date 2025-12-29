@@ -437,6 +437,59 @@ pre code {
     line-height: 1.5;
 }
 
+/* Syntax Highlighting with Line Numbers */
+.highlight {
+    background-color: var(--code-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 20px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.highlight pre {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.highlight table {
+    border: none;
+    margin: 0;
+    background-color: transparent;
+}
+
+.highlight table td {
+    padding: 0;
+    border: none;
+}
+
+.highlight table td.gutter {
+    padding-right: 15px;
+    text-align: right;
+    border-right: 1px solid var(--border-color);
+}
+
+.highlight table td.gutter pre {
+    color: var(--text-secondary);
+    user-select: none;
+}
+
+.highlight table td.code {
+    padding-left: 15px;
+}
+
+.highlight table td.code pre {
+    color: var(--text-primary);
+}
+
+/* Line number styling */
+.lineno {
+    color: var(--text-secondary);
+    user-select: none;
+}
+
 /* ===========================
    Tables
    =========================== */
