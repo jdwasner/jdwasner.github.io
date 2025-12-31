@@ -24,10 +24,10 @@ layout: default
         <p class="project-description">{{ page.description }}</p>
         {% endif %}
         
-        {% if page.technologies %}
-        <div class="project-technologies">
-            <strong>Technologies:</strong>
-            {% for tech in page.technologies %}
+        {% if page.skills %}
+        <div class="project-skills">
+            <strong>Skills:</strong>
+            {% for tech in page.skills %}
             <span class="tag">{{ tech }}</span>
             {% endfor %}
         </div>

@@ -3,7 +3,7 @@ layout: project
 title: Outlier Analysis App
 date: 2025-12-31
 description: Built web app that takes user input and displays various analysis to aid in process root cause analysis.
-technologies:
+skills:
   - Python
   - Pandas
   - SQL
@@ -13,7 +13,8 @@ technologies:
   - AI
 ---
 **Role:** Lead Developer
-**Tech:**
+
+**Skills:**
 - Python
 	- Flask
 	- Pandas

@@ -17,9 +17,9 @@ Explore my portfolio of data analysis and visualization projects. Each project d
     </p>
     <p class="project-description">{{ project.description }}</p>
     
-    <div class="project-technologies">
-      <strong>Technologies:</strong>
-      {% for tech in project.technologies %}
+    <div class="project-skills">
+      <strong>Skills:</strong>
+      {% for tech in project.skills %}
       <span class="tag">{{ tech }}</span>
       {% endfor %}
     </div>

@@ -17,7 +17,7 @@ Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical ana
     <p class="project-date">{{ project.date | date: "%B %Y" }}</p>
     <p>{{ project.description }}</p>
     <div class="project-tags">
-      {% for tech in project.technologies %}
+      {% for tech in project.skills %}
       <span class="tag">{{ tech }}</span>
       {% endfor %}
     </div>
