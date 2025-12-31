@@ -393,9 +393,27 @@ a:hover {
     height: auto;
     border-radius: 8px;
     border: 1px solid var(--border-color);
-    margin: 20px 0;
+    margin: 20px auto;
+    display: block;
     background-color: var(--bg-primary);
     padding: 10px;
+}
+
+/* Image size utility classes */
+.project-content img.img-small {
+    max-width: 400px;
+}
+
+.project-content img.img-medium {
+    max-width: 600px;
+}
+
+.project-content img.img-large {
+    max-width: 800px;
+}
+
+.project-content img.img-full {
+    max-width: 100%;
 }
 
 .project-content em {

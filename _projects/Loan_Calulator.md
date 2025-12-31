@@ -2,7 +2,7 @@
 layout: project
 title: Python Loan Calculator
 date: 2023-12-23
-description: Built calculating scripts in python to help determine best loan payoff strategy.
+description: A Python tool that simulates loan payoff strategies to identify the fastest and most cost‑efficient path to becoming debt‑free.
 skills:
   - Python
   - Pandas
@@ -20,7 +20,7 @@ github: https://github.com/jdwasner/Loan_Calculator
 Managing multiple loans with different balances and interest rates made it difficult to determine the most cost‑effective payoff strategy. Manually iterating scenarios in Excel was slow and error‑prone, so I built a Python‑based optimization tool that simulates payoff strategies, compares interest and duration outcomes, and exports results for analysis.
 
 ## Problem
-Questions like _“Which loan should I pay first?”_ or _“How much faster can I finish if I increase my payment?”_ required repetitive manual calculations. I needed an automated, scalable way to evaluate strategies and understand trade‑offs.
+Questions like *“Which loan should I pay first?”* or *“How much faster can I finish if I increase my payment?”* required repetitive manual calculations. I needed an automated, scalable way to evaluate strategies and understand trade‑offs.
 
 ## Solution
 I developed a loan modeling engine that:
