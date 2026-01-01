@@ -42,7 +42,7 @@ This produced a complete payoff landscape showing optimal strategies and diminis
 ![Example loan detail input into the code](/assets/images/PythonLoanCalculator_Image01.png)
 *Example loan detail input into the code*
 
-![Example monthly budget vs months to complete iteration output](/assets/images/PythonLoanCalculator_Image02.png)
+<img src="/assets/images/PythonLoanCalculator_Image02.png" alt="Example monthly budget vs months to complete iteration output" class="img-medium">
 *Example monthly budget vs months to complete iteration output*
 
 ![Example amortization table output (continues to the left and down)](/assets/images/PythonLoanCalculator_Image03.png)
