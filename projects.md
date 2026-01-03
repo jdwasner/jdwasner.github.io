@@ -37,7 +37,7 @@ Explore my portfolio of data analysis and visualization projects. Each project d
 <div class="projects-list">
   {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
   {% for project in sorted_projects %}
-  <div class="project-card-full" data-skills="{{ project.skills | join: ',' }}">"
+  <div class="project-card-full" data-skills="{{ project.skills | join: ',' }}">
     <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
     <p class="project-meta">
       <span class="date">📅 {{ project.date | date: "%B %d, %Y" }}</span>

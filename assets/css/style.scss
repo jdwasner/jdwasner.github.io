@@ -99,6 +99,11 @@ nav ul {
     gap: 20px;
     flex-wrap: wrap;
     margin-bottom: 20px;
+    justify-content: center;
+}
+
+nav ul li {
+    flex: 0 0 auto;
 }
 
 nav ul li a {
@@ -108,7 +113,8 @@ nav ul li a {
     border-radius: 6px;
     border: 1px solid var(--border-color);
     transition: all 0.3s ease;
-    display: block;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 nav ul li a:hover {
@@ -122,6 +128,7 @@ nav ul li a:hover {
     display: flex;
     gap: 15px;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .social-links a {
@@ -327,10 +334,11 @@ a:hover {
 .btn-resume,
 .btn-secondary {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 500;
+    font-size: 1em;
     transition: all 0.3s ease;
 }
 
@@ -446,6 +454,20 @@ a:hover {
 .project-detail {
     max-width: 900px;
     margin: 0 auto;
+}
+
+/* Project Featured Image */
+.project-featured-image {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.project-featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .project-header {
