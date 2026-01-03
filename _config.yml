@@ -61,3 +61,23 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
+
+# Coming Soon Projects
+coming_soon_projects:
+  - title: "Process Data Dashboard Creation"
+    description: "Dashboards created to help understand process quirks and root cause analysis"
+    skills:
+      - Python
+      - Pandas
+      - Power BI
+      - DAX
+  - title: "Equipment Shifting Calculator"
+    description: "Maintenance tool built in Excel to help ensure healthy equipment moves line-side"
+    skills:
+      - Excel
+      - Power Query
+  - title: "Daily Equipment Data ETL Pipeline"
+    description: "Leveraged python to collect and store process data via webscrapeping and API calls for daily dashboard updates"
+    skills:
+      - Python
+      - Pandas

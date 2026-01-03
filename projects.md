@@ -37,6 +37,31 @@ Explore my portfolio of data analysis and visualization projects. Each project d
   {% endfor %}
 </div>
 
+## Coming Soon
+
+<div class="projects-list coming-soon-section">
+  {% for project in site.coming_soon_projects %}
+  <div class="project-card-full coming-soon">
+    <h2>{{ project.title }}</h2>
+    <p class="project-meta">
+      <span class="coming-soon-badge">🚧 Coming Soon</span>
+    </p>
+    <p class="project-description">{{ project.description }}</p>
+    
+    <div class="project-skills">
+      <strong>Skills:</strong>
+      {% for tech in project.skills %}
+      <span class="tag">{{ tech }}</span>
+      {% endfor %}
+    </div>
+    
+    <div class="project-links">
+      <button class="btn-coming-soon" disabled>Coming Soon</button>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
 ---
 
 ## Project Categories
