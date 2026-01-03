@@ -34,11 +34,13 @@
         <!-- Header -->
         <header>
             <div class="header-content">
+                {% unless page.layout == 'project' %}
                 <div class="profile-picture">
                     <img src="{{ '/assets/images/Profile Picture.jpg' | relative_url }}" alt="{{ site.author.name }}">
                 </div>
                 <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
                 <p>{{ site.description }}</p>
+                {% endunless %}
                 
                 <!-- Navigation -->
                 <nav>
@@ -49,6 +51,7 @@
                     </ul>
                 </nav>
                 
+                {% unless page.layout == 'project' %}
                 <!-- Social Links -->
                 <div class="social-links">
                     {% if site.author.github %}
@@ -73,6 +76,7 @@
                     </a>
                     {% endif %}
                 </div>
+                {% endunless %}
             </div>
         </header>
 

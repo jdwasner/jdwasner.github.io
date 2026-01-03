@@ -3,7 +3,7 @@ layout: project
 title: Outlier Analysis App
 date: 2025-12-31
 description: A data‑driven investigation platform that centralizes raw data, routing, and correlation analysis to accelerate root‑cause discovery for PE/QE teams.
-featured_image: /assets/images/OutlierAnalysisApp_Image02.png
+featured_image: /assets/images/OutlierAnalysisApp_Image03.png
 skills:
   - Python
   - Pandas
