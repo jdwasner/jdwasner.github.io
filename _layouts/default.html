@@ -106,6 +106,25 @@
         backToTopButton.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
+
+        // Skill filter functionality
+        const skillSelect = document.getElementById('skill-select');
+        if (skillSelect) {
+            skillSelect.addEventListener('change', function() {
+                const selectedSkill = this.value;
+                const projectCards = document.querySelectorAll('.project-card-full');
+                
+                projectCards.forEach(card => {
+                    const skills = card.getAttribute('data-skills');
+                    
+                    if (selectedSkill === 'all' || (skills && skills.includes(selectedSkill))) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        }
     </script>
 </body>
 </html>

@@ -243,6 +243,45 @@ a:hover {
 /* ===========================
    Projects List
    =========================== */
+
+/* Skill Filter */
+.skill-filter {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.skill-filter label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+.skill-dropdown {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-size: 1em;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.skill-dropdown:hover {
+    border-color: var(--accent-primary);
+}
+
+.skill-dropdown:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.1);
+}
+
 .projects-list {
     display: flex;
     flex-direction: column;

@@ -7,10 +7,37 @@ permalink: /projects/
 # Data Science Projects
 Explore my portfolio of data analysis and visualization projects. Each project demonstrates different aspects of data analysis, from simple plots to advanced regression machine learning implementations.
 
+<!-- Skill Filter -->
+<div class="skill-filter">
+  <label for="skill-select"><strong>Filter by Skill:</strong></label>
+  <select id="skill-select" class="skill-dropdown">
+    <option value="all">All Projects</option>
+    {% assign all_skills = "" | split: "" %}
+    {% for project in site.projects %}
+      {% for skill in project.skills %}
+        {% unless all_skills contains skill %}
+          {% assign all_skills = all_skills | push: skill %}
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
+    {% for project in site.coming_soon_projects %}
+      {% for skill in project.skills %}
+        {% unless all_skills contains skill %}
+          {% assign all_skills = all_skills | push: skill %}
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
+    {% assign sorted_skills = all_skills | sort %}
+    {% for skill in sorted_skills %}
+    <option value="{{ skill }}">{{ skill }}</option>
+    {% endfor %}
+  </select>
+</div>
+
 <div class="projects-list">
   {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
   {% for project in sorted_projects %}
-  <div class="project-card-full">
+  <div class="project-card-full" data-skills="{{ project.skills | join: ',' }}">"
     <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
     <p class="project-meta">
       <span class="date">📅 {{ project.date | date: "%B %d, %Y" }}</span>
@@ -41,7 +68,7 @@ Explore my portfolio of data analysis and visualization projects. Each project d
 
 <div class="projects-list coming-soon-section">
   {% for project in site.coming_soon_projects %}
-  <div class="project-card-full coming-soon">
+  <div class="project-card-full coming-soon" data-skills="{{ project.skills | join: ',' }}">
     <h2>{{ project.title }}</h2>
     <p class="project-meta">
       <span class="coming-soon-badge">🚧 Coming Soon</span>
