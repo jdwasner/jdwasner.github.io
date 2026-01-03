@@ -421,6 +421,13 @@ a:hover {
 /* ===========================
    Resume Section
    =========================== */
+.about-links {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
 .resume-section {
     text-align: center;
     margin: 40px 0;
@@ -823,8 +830,14 @@ footer a {
     }
     
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
+        flex-wrap: nowrap;
+    }
+    
+    nav ul li a {
+        padding: 6px 12px;
+        font-size: 0.9em;
     }
     
     .projects-grid {

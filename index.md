@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Data Science Portfolio
+## Welcome to My Data Science Portfolio
 
 Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical analysis and data visualization. I specialize in turning complex data into actionable insights that drive business decisions.
 
@@ -36,7 +36,10 @@ I'm an engineer with a strong foundation in root cause analysis, large data, and
 - **Dashboard Building:** Power BI, FineReport
 - **Root Cause Analysis:** 5Why, Fishbone, PFMEA
 
-[Learn More About Me](/about) | [View All Projects](/projects)
+<div class="about-links">
+  <a href="/about" class="btn-secondary">Learn More About Me</a>
+  <a href="/projects" class="btn-secondary">View All Projects</a>
+</div>
 
 ## Download Resume
 
