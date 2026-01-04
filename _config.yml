@@ -24,18 +24,22 @@ collections:
     output: true
     permalink: /projects/:name/
 
+# Include
+include:
+  - _pages
+
 # Defaults
 defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "default"
   - scope:
       path: ""
       type: "projects"
     values:
       layout: "project"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
 
 # Navigation
 navigation:
