@@ -4,7 +4,14 @@ title: About
 permalink: /about/
 ---
 
-# About Me
+<div class="about-header-section">
+  <div class="about-profile-picture">
+    <img src="/assets/images/Profile Picture.jpg" alt="Justin Wasner">
+  </div>
+  <div class="about-title">
+    <h2>About Me</h2>
+  </div>
+</div>
 
 ## Professional Background
 
@@ -17,7 +24,7 @@ My journey in data science began with a fascination for uncovering patterns in d
 ### Programming & Tools
 - **Languages:** Python, SQL, DAX
 - **Data Processing:** Pandas, NumPy, CSV, Parquet, Feather
-- **Visualization:** Matplotlib, PowerBI, MiniTap
+- **Visualization:** Matplotlib, PowerBI, MiniTab
 - **Databases:** MySQL, Oracle
 
 ### Data Science Capabilities
