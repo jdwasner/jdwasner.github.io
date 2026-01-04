@@ -34,7 +34,7 @@
         <!-- Header -->
         <header>
             <div class="header-content">
-                {% unless page.layout == 'project' or page.permalink == '/about/' %}
+                {% unless page.layout == 'project' or page.permalink == '/about/' or page.permalink == '/projects/' %}
                 <div class="profile-picture">
                     <img src="{{ '/assets/images/Profile Picture.jpg' | relative_url }}" alt="{{ site.author.name }}">
                 </div>
@@ -46,12 +46,14 @@
                 <nav>
                     <ul>
                         {% for item in site.navigation %}
+                        {% unless page.url == '/' and item.url == '/' %}
                         <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                        {% endunless %}
                         {% endfor %}
                     </ul>
                 </nav>
                 
-                {% unless page.layout == 'project' or page.permalink == '/about/' %}
+                {% unless page.layout == 'project' or page.permalink == '/about/' or page.permalink == '/projects/' %}
                 <!-- Social Links -->
                 <div class="social-links">
                     {% if site.author.github %}

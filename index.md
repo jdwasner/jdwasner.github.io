@@ -10,7 +10,7 @@ Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical ana
 ## Featured Projects
 
 <div class="projects-grid">
-  {% assign featured_projects = site.projects | sort: 'date' | reverse | limit: 3 %}
+  {% assign featured_projects = site.projects | where: "featured", true | sort: 'featured_order' %}
   {% for project in featured_projects %}
   <div class="project-card">
     <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>

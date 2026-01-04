@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-## Data Science Projects
+# Data Science Projects
 Explore my portfolio of data analysis and visualization projects. Each project demonstrates different aspects of data analysis, from simple plots to advanced regression machine learning implementations.
 
 <!-- Skill Filter -->
