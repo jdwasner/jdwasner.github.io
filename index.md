@@ -13,6 +13,13 @@ Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical ana
   {% assign featured_projects = site.projects | where: "featured", true | sort: 'featured_order' %}
   {% for project in featured_projects %}
   <div class="project-card">
+    {% if project.featured_image %}
+    <div class="project-card-image">
+      <a href="{{ project.url | relative_url }}">
+        <img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
+      </a>
+    </div>
+    {% endif %}
     <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
     <p class="project-date">{{ project.date | date: "%B %Y" }}</p>
     <p>{{ project.description }}</p>

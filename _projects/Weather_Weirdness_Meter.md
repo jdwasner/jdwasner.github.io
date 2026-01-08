@@ -15,8 +15,6 @@ skills:
 github: https://github.com/jdwasner/Weird-WX
 demo: https://weirdwx.streamlit.app/
 ---
-### App [Link](https://weirdwx.streamlit.app/)
-
 **Role:** Developer
 
 **Skills:**
