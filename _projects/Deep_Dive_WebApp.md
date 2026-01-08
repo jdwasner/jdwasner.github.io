@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Process Investigation Platform App (PIP)
+title: Deep Dive WebApp
 date: 2025-12-31
 description: A data‑driven investigation platform that centralizes raw data, routing, and correlation analysis to accelerate root‑cause discovery for PE/QE teams.
 featured: true
