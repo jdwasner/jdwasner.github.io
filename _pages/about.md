@@ -15,7 +15,7 @@ permalink: /about/
 
 ## Professional Background
 
-I'm an enginner with a passion for extracting meaningful insights from complex datasets. With a strong background in root cause analysis (RCA), large data, and data visualization. I help organizations make data-driven decisions that create real business value.
+I'm an engineer with a passion for extracting meaningful insights from complex datasets. With a strong background in root cause analysis (RCA), large data, and data visualization. I help organizations make data-driven decisions that create real business value.
 
 My journey in data science began with a fascination for uncovering patterns in data and has evolved into a comprehensive skill set spanning the entire data science pipeline—from data collection and cleaning to model deployment and monitoring.
 

@@ -4,7 +4,7 @@ title: Python Loan Calculator
 date: 2023-12-23
 description: A Python tool that simulates loan payoff strategies to identify the fastest and most cost‑efficient path to becoming debt‑free.
 featured: true
-featured_order: 2
+featured_order: 3
 skills:
   - Python
   - Pandas
