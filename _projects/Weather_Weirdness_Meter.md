@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Weather Weirdness Meter
-date: 2024-11-15
-description: Project description
+date: 2025-11-24
+description: Interactive app that compares current weather to historical hourly data and computes statistical "weirdness" for multiple conditions.
 featured: true
 featured_order: 2
 featured_image: /assets/images/WeirdWx_Image05.png
@@ -12,8 +12,8 @@ skills:
   - Matplotlib
   - Streamlit
   - APIs
-github: GitHub link (delete if don’t have)
-demo: Demo link (delete if don’t have)
+github: https://github.com/jdwasner/Weird-WX
+demo: https://weirdwx.streamlit.app/
 ---
 ### App [Link](https://weirdwx.streamlit.app/)
 
