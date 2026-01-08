@@ -68,6 +68,14 @@ kramdown:
 
 # Coming Soon Projects
 coming_soon_projects:
+  - title: "Weird WX Meters Analysis"
+    description: "See how weird current weather is compared to historical data"
+    skills:
+      - Python
+      - Pandas
+      - Matplotlib
+      - APIs
+      - Streamlit
   - title: "Process Data Dashboard Creation"
     description: "Dashboards created to help understand process quirks and root cause analysis"
     skills:
@@ -75,6 +83,12 @@ coming_soon_projects:
       - Pandas
       - Power BI
       - DAX
+  - title: "Material Splice Performance"
+    description: "Analysis of material splice performance to help improve line efficiency"
+    skills:
+      - Python
+      - Pandas
+      - SQL
   - title: "Equipment Shifting Calculator"
     description: "Maintenance tool built in Excel to help ensure healthy equipment moves line-side"
     skills:
@@ -85,3 +99,20 @@ coming_soon_projects:
     skills:
       - Python
       - Pandas
+  - title: "Ticket to Ride Optimization"
+    description: "Analysis of Ticket to Ride board game strategies using Monte Carlo simulations to determine optimal gameplay"
+    skills:
+      - Python
+      - NumPy
+      - Matplotlib
+  - title: "Sister Plant Misalignment Findings"
+    description: "Comparison of sister plant process data to identify misalignments and areas for improvement"
+    skills:
+      - Power BI
+  - title: Runway Direction vs Annual Wind Analysis
+    description: "Analysis of airport runway directions compared to annual wind data to assess alignment country wide"
+    skills:
+      - Python
+      - Pandas
+      - Matplotlib
+      - Geospatial Analysis
