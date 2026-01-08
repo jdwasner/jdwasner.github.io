@@ -15,6 +15,8 @@ skills:
 github: GitHub link (delete if don’t have)
 demo: Demo link (delete if don’t have)
 ---
+### App [Link](https://weirdwx.streamlit.app/)
+
 **Role:** Developer
 
 **Skills:**
@@ -81,7 +83,7 @@ I wanted a quick, data‑driven answer to questions like “Is it unusually warm
 
 ## Code Repository
 Source code available on GitHub:
-https://github.com/jdwasner/Loan_Calculator
+https://github.com/jdwasner/Weird-WX
 
 ## Future Improvements
 **High priority**
