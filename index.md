@@ -2,9 +2,6 @@
 layout: default
 title: Home
 ---
-
-## Welcome to My Data Science Portfolio
-
 Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical analysis and data visualization. I specialize in turning complex data into actionable insights that drive business decisions.
 
 ## Featured Projects
@@ -13,6 +10,7 @@ Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical ana
   {% assign featured_projects = site.projects | where: "featured", true | sort: 'featured_order' %}
   {% for project in featured_projects %}
   <div class="project-card">
+    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
     {% if project.featured_image %}
     <div class="project-card-image">
       <a href="{{ project.url | relative_url }}">
@@ -20,7 +18,6 @@ Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical ana
       </a>
     </div>
     {% endif %}
-    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
     <p class="project-date">{{ project.date | date: "%B %Y" }}</p>
     <p>{{ project.description }}</p>
     <div class="project-tags">
