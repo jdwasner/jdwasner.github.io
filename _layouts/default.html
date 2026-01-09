@@ -35,27 +35,26 @@
         <header>
             <div class="header-content">
                 {% unless page.layout == 'project' or page.permalink == '/about/' or page.permalink == '/projects/' %}
-                <div class="profile-picture">
-                    <img src="{{ '/assets/images/Profile Picture.jpg' | relative_url }}" alt="{{ site.author.name }}">
-                </div>
-                <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-                <p>{{ site.description }}</p>
-                {% endunless %}
-                
-                <!-- Navigation -->
-                <nav>
-                    <ul>
-                        {% for item in site.navigation %}
-                        {% unless page.url == '/' and item.url == '/' %}
-                        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-                        {% endunless %}
-                        {% endfor %}
-                    </ul>
-                </nav>
-                
-                {% unless page.layout == 'project' or page.permalink == '/about/' or page.permalink == '/projects/' %}
-                <!-- Social Links -->
-                <div class="social-links">
+                <div class="header-profile-section">
+                    <div class="header-left">
+                        <div class="header-text">
+                            <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+                            <p>{{ site.description }}</p>
+                        </div>
+                        
+                        <!-- Navigation -->
+                        <nav>
+                            <ul>
+                                {% for item in site.navigation %}
+                                {% unless page.url == '/' and item.url == '/' %}
+                                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                                {% endunless %}
+                                {% endfor %}
+                            </ul>
+                        </nav>
+                        
+                        <!-- Social Links -->
+                        <div class="social-links">
                     {% if site.author.github %}
                     <a href="https://github.com/{{ site.author.github }}" target="_blank" title="GitHub">
                         <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
@@ -78,6 +77,22 @@
                     </a>
                     {% endif %}
                 </div>
+                    </div>
+                    <div class="profile-picture">
+                        <img src="{{ '/assets/images/Profile Picture.jpg' | relative_url }}" alt="{{ site.author.name }}">
+                    </div>
+                </div>
+                {% else %}
+                <!-- Navigation -->
+                <nav>
+                    <ul>
+                        {% for item in site.navigation %}
+                        {% unless page.url == '/' and item.url == '/' %}
+                        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                        {% endunless %}
+                        {% endfor %}
+                    </ul>
+                </nav>
                 {% endunless %}
             </div>
         </header>
