@@ -67,37 +67,19 @@ kramdown:
 
 # Coming Soon Projects
 coming_soon_projects:
-  - title: "Weird WX Meters Analysis"
-    description: "See how weird current weather is compared to historical data"
+  - title: "Production Data ETL & Reporting Pipeline"
+    description: "Built a daily Python ETL pipeline that queried a web API for raw production data, performed complex conditional counting and summarization, and stored the data for downstream visualization in Power BI."
     skills:
       - Python
+      - Requests
       - Pandas
-      - Matplotlib
-      - APIs
-      - Streamlit
-  - title: "Process Data Dashboard Creation"
-    description: "Dashboards created to help understand process quirks and root cause analysis"
-    skills:
-      - Python
-      - Pandas
+      - ETL
       - Power BI
-      - DAX
-  - title: "Material Splice Performance"
-    description: "Analysis of material splice performance to help improve line efficiency"
-    skills:
-      - Python
-      - Pandas
-      - SQL
   - title: "Equipment Shifting Calculator"
     description: "Maintenance tool built in Excel to help ensure healthy equipment moves line-side"
     skills:
       - Excel
       - Power Query
-  - title: "Daily Equipment Data ETL Pipeline"
-    description: "Leveraged python to collect and store process data via webscrapeping and API calls for daily dashboard updates"
-    skills:
-      - Python
-      - Pandas
   - title: "Ticket to Ride Optimization"
     description: "Analysis of Ticket to Ride board game strategies using Monte Carlo simulations to determine optimal gameplay"
     skills:
