@@ -4,7 +4,7 @@ title: Home
 ---
 Hi, I'm **Justin Wasner**, an engineer specializing in statistical analysis and data visualization. I enjoy building analysis workflows and dashboards that translate messy data into decisions stakeholders can act on.
 
-I'm located in the Nashville metropolitan area and currently exploring opportunities in the data field. If you're looking for someone to support analytics, reporting, or data-driven product work, feel free to reach out—my email is linked above.
+I'm located in the Nashville metropolitan area and currently exploring opportunities in the data field. If you're looking for someone to support analytics, reporting, or data-driven product work, feel free to reach out; my email and linkedin is linked above.
 
 Take a look at my featured projects below. You can see all of my projects and more about me using the links above.
 
@@ -38,8 +38,6 @@ Take a look at my featured projects below. You can see all of my projects and mo
 
 I'm an engineer with a strong foundation in root cause analysis, large data, and data visualization. My work focuses on culminating large data sets, conducting exploratory data analysis (EDA), and creating data-driven dashboards to help solve problems.
 
-You can learn more about me here: [About](/about.md)
-
 ### Core Skills:
 - **Tools & Languages:** Excel (PivotTables, lookups, advanced formulas), Python (pandas, NumPy, scikit-learn, matplotlib), SQL (joins, CTEs, window functions), Power BI (Power Query, DAX), Git/GitHub
 - **Analytics:** EDA, statistical analysis (hypothesis testing), KPI definition, time-series analysis, correlation analysis, anomaly detection, data visualization, analytical storytelling
@@ -57,7 +55,7 @@ You can learn more about me here: [About](/about.md)
 ## Download Resume
 
 <div class="resume-section">
-  <a href="/assets/resume/resume.pdf" class="btn-resume" download>
+  <a href="/assets/resume/JustinWasnerResumeRev17.DS_260108.pdf" class="btn-resume" download>
     📄 Download My Resume
   </a>
 </div>
