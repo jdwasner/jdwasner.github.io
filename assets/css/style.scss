@@ -89,8 +89,8 @@ header {
 }
 
 .profile-picture img {
-    width: 120px;
-    height: 120px;
+    width: 144px;
+    height: 144px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--accent-primary);
@@ -153,7 +153,7 @@ nav ul {
     gap: 20px;
     flex-wrap: nowrap;
     margin: 0;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 nav ul li {
@@ -182,7 +182,7 @@ nav ul li a:hover {
     display: flex;
     gap: 15px;
     margin-top: 20px;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .social-links a {
