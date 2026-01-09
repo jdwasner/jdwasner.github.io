@@ -2,7 +2,11 @@
 layout: default
 title: Home
 ---
-Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical analysis and data visualization. I specialize in turning complex data into actionable insights that drive business decisions.
+Hi, I'm **Justin Wasner**, an engineer specializing in statistical analysis and data visualization. I enjoy building analysis workflows and dashboards that translate messy data into decisions stakeholders can act on.
+
+I'm located in the Nashville metropolitan area and currently exploring opportunities in the data field. If you're looking for someone to support analytics, reporting, or data-driven product work, feel free to reach out—my email is linked above.
+
+Take a look at my featured projects below. You can see all of my projects and more about me using the links above.
 
 ## Featured Projects
 
@@ -34,11 +38,16 @@ Hi, I'm **Justin Wasner**, a passionate engineer with a focus in statistical ana
 
 I'm an engineer with a strong foundation in root cause analysis, large data, and data visualization. My work focuses on culminating large data sets, conducting exploratory data analysis (EDA), and creating data-driven dashboards to help solve problems.
 
-### Core Competencies:
-- **Data Analysis:** Python, SQL, MiniTab, Excel
-- **Data Engineering:** ETL Pipelines, Data Modeling, SQL Query Optimization
-- **Dashboard Building:** Power BI, FineReport
-- **Root Cause Analysis:** 5Why, Fishbone, PFMEA
+You can learn more about me here: [About](/about.md)
+
+### Core Skills:
+- **Tools & Languages:** Excel (PivotTables, lookups, advanced formulas), Python (pandas, NumPy, scikit-learn, matplotlib), SQL (joins, CTEs, window functions), Power BI (Power Query, DAX), Git/GitHub
+- **Analytics:** EDA, statistical analysis (hypothesis testing), KPI definition, time-series analysis, correlation analysis, anomaly detection, data visualization, analytical storytelling
+- **Data Prep & Quality:** data wrangling, data quality checks & validation, reproducible analysis
+- **Machine Learning:** feature engineering, model training & evaluation (scikit-learn)
+- **Data Engineering:** ETL pipelines, data modeling, query optimization, file formats (CSV/Parquet)
+- **Web Apps:** Streamlit, Flask, APIs
+- **Manufacturing Domain Expertise:** KPI development & review, root cause analysis (RCA), continuous improvement (CI), process mapping/flow understanding, PFMEA, Control Plans (CP), APIS-IQ
 
 <div class="about-links">
   <a href="/about" class="btn-secondary">Learn More About Me</a>
