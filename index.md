@@ -55,7 +55,7 @@ I'm an engineer with a strong foundation in root cause analysis, large data, and
 ## Download Resume
 
 <div class="resume-section">
-  <a href="/assets/resume/JustinWasnerResumeRev17.DS_260108.pdf" class="btn-resume" download>
+  <a href="/assets/resume/JustinWasnerResume.pdf" class="btn-resume" download>
     📄 Download My Resume
   </a>
 </div>
