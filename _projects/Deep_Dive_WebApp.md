@@ -45,6 +45,21 @@ I designed and built a modular web application that centralizes data retrieval, 
 ![Raw Heatmap](/assets/images/OutlierAnalysisApp_Image03.png)
 *Raw Heatmap: Same data set as raw plot but heatmap to show localized density*
 
+![MA & MSD](/assets/images/OutlierAnalysisApp_Image06.png)
+*Moving Average and Standard Deviation (with user input window size)*
+
+![Autocorrelation](/assets/images/OutlierAnalysisApp_Image07.png)
+*Autocorrelation Analysis: See if any lags result in high correlation*
+
+![Lag Correlation Heatmap](/assets/images/OutlierAnalysisApp_Image08.png)
+*Lag Correlation Heatmap: Shows heatmap of scatter plot that plots the selected lag on a single variable (in this case 4)*
+
+![Histogram](/assets/images/OutlierAnalysisApp_Image09.png)
+*Histogram of raw data with KDE overlay*
+
+![Q-Q Plot](/assets/images/OutlierAnalysisApp_Image10.png)
+*Q-Q Plot: to show how normal the data is*
+
 ![Raw Violin Plot](/assets/images/OutlierAnalysisApp_Image04.png)
 *Raw Violin Plot: Same data set as raw plot but violin plot to show distribution change over time*
 
@@ -65,6 +80,18 @@ I designed and built a modular web application that centralizes data retrieval, 
 - Compare two parameters with regression and statistical tests
 - Determine whether suspect IDs deviate from expected relationships
 - Visualizes population vs suspect behavior clearly
+
+![Raw Violin Plot](/assets/images/OutlierAnalysisApp_Image11.png)
+*Correlation Scatter: Showing 2 Parameters on same plot*
+
+![Raw Violin Plot](/assets/images/OutlierAnalysisApp_Image12.png)
+*Correlation Heatmap: Showing Density of Correlation Scatter data*
+
+![Raw Violin Plot](/assets/images/OutlierAnalysisApp_Image13.png)
+*Downstream Parameter Time-Series: For Ensuring Clean Data Input*
+
+![Raw Violin Plot](/assets/images/OutlierAnalysisApp_Image14.png)
+*Upstream Parameter Time-Series: For Ensuring Clean Data Input*
 
 ### Inspect Module
 
