@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 # Data Science Projects
-Explore my portfolio of data analysis and visualization projects. Each project demonstrates different aspects of data analysis, from simple plots to advanced regression machine learning implementations.
+Explore my portfolio of data projects. Each project demonstrates different aspects of data from simple plots to advanced regression machine learning implementations.
 
 <!-- Skill Filter -->
 <div class="skill-filter">
@@ -91,11 +91,4 @@ Explore my portfolio of data analysis and visualization projects. Each project d
 
 ---
 
-## Project Categories
-My projects span multiple domains of data analysis:
-- **Data Visualization:** Plots and Dashboards
-- **Exploratory Data Analysis (EDA):** Learn the quirks and details of the dataset
-- **Time Series:** Forecasting and anomaly detection
-- **Data Engineering:** ETL pipelines and data processing
-
-{% if site.author.github %}Want to see the code? All projects are available on [GitHub](https://github.com/{{ site.author.github }}).{% endif %}
+{% if site.author.github %}Want to see the code? Some projects are available on [GitHub](https://github.com/{{ site.author.github }}).{% endif %}

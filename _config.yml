@@ -67,14 +67,6 @@ kramdown:
 
 # Coming Soon Projects
 coming_soon_projects:
-  - title: "Production Data ETL & Reporting Pipeline"
-    description: "Built a daily Python ETL pipeline that queried a web API for raw production data, performed complex conditional counting and summarization, and stored the data for downstream visualization in Power BI."
-    skills:
-      - Python
-      - Requests
-      - Pandas
-      - ETL
-      - Power BI
   - title: "Equipment Shifting Calculator"
     description: "Maintenance tool built in Excel to help ensure healthy equipment moves line-side"
     skills:
