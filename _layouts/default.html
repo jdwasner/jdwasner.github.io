@@ -131,8 +131,34 @@
         // Skill filter functionality
         const skillSelect = document.getElementById('skill-select');
         if (skillSelect) {
+            // Check for URL parameter and auto-filter
+            const urlParams = new URLSearchParams(window.location.search);
+            const skillParam = urlParams.get('skill');
+            
+            if (skillParam) {
+                // Set dropdown to the skill from URL
+                skillSelect.value = skillParam;
+                // Trigger filtering
+                filterProjects(skillParam);
+            }
+            
             skillSelect.addEventListener('change', function() {
                 const selectedSkill = this.value;
+                filterProjects(selectedSkill);
+                
+                // Update URL without page reload
+                if (selectedSkill !== 'all') {
+                    const newUrl = new URL(window.location);
+                    newUrl.searchParams.set('skill', selectedSkill);
+                    window.history.pushState({}, '', newUrl);
+                } else {
+                    const newUrl = new URL(window.location);
+                    newUrl.searchParams.delete('skill');
+                    window.history.pushState({}, '', newUrl);
+                }
+            });
+            
+            function filterProjects(selectedSkill) {
                 const projectCards = document.querySelectorAll('.project-card-full');
                 
                 projectCards.forEach(card => {
@@ -144,7 +170,7 @@
                         card.style.display = 'none';
                     }
                 });
-            });
+            }
         }
     </script>
 </body>

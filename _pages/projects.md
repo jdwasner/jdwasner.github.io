@@ -47,7 +47,7 @@ Explore my portfolio of data projects. Each project demonstrates different aspec
     <div class="project-skills">
       <strong>Skills:</strong>
       {% for tech in project.skills %}
-      <span class="tag">{{ tech }}</span>
+      <a href="{{ '/projects' | relative_url }}?skill={{ tech | url_encode }}" class="tag">{{ tech }}</a>
       {% endfor %}
     </div>
     
@@ -78,7 +78,7 @@ Explore my portfolio of data projects. Each project demonstrates different aspec
     <div class="project-skills">
       <strong>Skills:</strong>
       {% for tech in project.skills %}
-      <span class="tag">{{ tech }}</span>
+      <a href="{{ '/projects' | relative_url }}?skill={{ tech | url_encode }}" class="tag">{{ tech }}</a>
       {% endfor %}
     </div>
     

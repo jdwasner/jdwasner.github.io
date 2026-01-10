@@ -26,7 +26,7 @@ Take a look at my featured projects below. You can see all of my projects and mo
     <p>{{ project.description }}</p>
     <div class="project-tags">
       {% for tech in project.skills %}
-      <span class="tag">{{ tech }}</span>
+      <a href="{{ '/projects' | relative_url }}?skill={{ tech | url_encode }}" class="tag">{{ tech }}</a>
       {% endfor %}
     </div>
     <a href="{{ project.url | relative_url }}" class="btn-project">View Project →</a>
