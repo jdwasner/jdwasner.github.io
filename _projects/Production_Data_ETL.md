@@ -3,8 +3,8 @@ layout: project
 title: Production Data ETL & Reporting Pipeline
 date: 2023-01-20
 description: Built a daily Python ETL pipeline that queried a web API for raw production data, performed complex conditional counting and summarization, and stored the data for downstream visualization in Power BI.
-featured: false
-featured_order:
+featured: True
+featured_order: 2
 featured_image:
 skills:
   - Pandas

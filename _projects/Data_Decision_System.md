@@ -3,8 +3,8 @@ layout: project
 title: Data Decision System (DDS) Dashboards
 date: 2025-03-28
 description: Created dashboards for a centralized data decision system that delivered SQL-backed dashboards to multiple departments
-featured: false
-featured_order:
+featured: True
+featured_order: 4
 skills:
   - SQL
   - KPI
