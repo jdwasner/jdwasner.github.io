@@ -12,22 +12,11 @@ skills:
   - Matplotlib
   - Streamlit
   - APIs
+  - Time Series Analysis
+  - Data Wrangling
 github: https://github.com/jdwasner/Weird-WX
 demo: https://weirdwx.streamlit.app/
 ---
-**Role:** Developer
-
-**Skills:**
-- Python
-	- Streamlit app building
-	- Pandas; Matplotlib
-	- Matplotlib
-- APIs
-	- Open-Meteo (historical weather data)
-	- OpenWeatherMap (current weather data)
-- Statistics
-	- Time series analysis; z-scores
-- Data Ingestion and Cleaning
 
 ## Overview
 A web application that compares **current** weather observations to **historical** weather for the same location, date, and hour, and quantifies how unusual the current conditions are using statistical measures. The project demonstrates data ingestion from external APIs, time series preprocessing, statistical anomaly scoring, and an interactive visualization layer suitable for exploratory analysis.
