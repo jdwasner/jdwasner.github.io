@@ -44,10 +44,13 @@ Smyrna, TN
 *Jul 2021 – Present*
 
 - Built and maintained **Python (pandas) + SQL** pipelines to ingest, clean, validate, and transform high-volume manufacturing/equipment data (**500k+ rows/day**) into analysis-ready datasets (CSV/Parquet).
-  - Check out the [Production Data ETL](/projects/Production_Data_ETL/) Project
-- Delivered **Power BI dashboards** for manufacturing KPIs (throughput, yield, downtime, utilization), improving stakeholder visibility and decision-making.
+  - Check out the [Production Data ETL](/projects/production-data-etl/) project
+- Delivered **Dashboards** for manufacturing KPIs (throughput, yield, downtime, utilization), improving stakeholder visibility and decision-making.
+  - Check out the [Data Decision System (DDS) Dashboards](/projects/data-decision-system/) project
 - Performed **EDA + root-cause investigations** across production, quality, and equipment data to identify drivers of performance and abnormal behavior.
+  - Check out the [Deep Dive WebApp](/projects/deep-dive-webapp/) project
 - Applied **statistical / before-after analysis** to evaluate process changes and communicate operational impact and risk.
+  - Check out the [Material Splice Performance Analysis](/projects/material-splice-anlysis/) project
 - Improved reporting performance through **SQL optimization**, reducing dashboard refresh times by **50%+**.
 - Created documentation and mentored teammates on **Python, SQL, and Power BI** to scale analytics adoption.
 - Analyzed time-series equipment signals to identify early indicators of degradation/failure.
