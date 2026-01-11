@@ -38,46 +38,48 @@ This interest in data also carried into my free time, where I started using thes
 ### Process Engineer
 
 [AESC US](https://us.aesc-group.com/)
+
 Smyrna, TN
+
 *Jul 2021 – Present*
-**Selected highlights (data-focused):**
+
 - Built and maintained **Python (pandas) + SQL** pipelines to ingest, clean, validate, and transform high-volume manufacturing/equipment data (**500k+ rows/day**) into analysis-ready datasets (CSV/Parquet).
+  - Check out the [Production Data ETL](/projects/Production_Data_ETL/) Project
 - Delivered **Power BI dashboards** for manufacturing KPIs (throughput, yield, downtime, utilization), improving stakeholder visibility and decision-making.
 - Performed **EDA + root-cause investigations** across production, quality, and equipment data to identify drivers of performance and abnormal behavior.
 - Applied **statistical / before-after analysis** to evaluate process changes and communicate operational impact and risk.
 - Improved reporting performance through **SQL optimization**, reducing dashboard refresh times by **50%+**.
 - Created documentation and mentored teammates on **Python, SQL, and Power BI** to scale analytics adoption.
-
-<!-- Optional: keep the rest without cluttering the page -->
-<!--
-<details>
-  <summary>More details</summary>
-
-  - Analyzed time-series equipment signals to identify early indicators of degradation/failure.
-  - Documented data sources, assumptions, and logic in a centralized knowledge base.
-  - ...
-</details>
--->
+- Analyzed time-series equipment signals to identify early indicators of degradation/failure.
+- Documented data sources, assumptions, and logic in a centralized knowledge base.
 
 ### Project Engineer
 
 [Walker Die Casting](https://www.walkerdiecasting.com/)
+
 Lewisburg, TN
+
 *Nov 2020 – Jul 2021*
 - Led cross‑functional investigations to identify root causes of low‑profitability products, using structured problem‑solving and data‑driven analysis to guide operational improvements.
 
 ### Mechanical Engineer
 
 [Lockheed Martin - Missile and Fire Control (MFC)](https://www.lockheedmartin.com/en-us/who-we-are/business-areas/missiles-and-fire-control.html)
+
 Camden, AR
+
 *Aug 2019 – Nov 2020*
+
 - Designed and optimized production tooling using structured requirements, tolerance analysis, and iterative testing to reduce manufacturing variation and defects.
 
 ### Technical Intern
 
 [Northrop Grumman - Aeronautics Systems](https://www.northropgrumman.com/who-we-are/business-sectors/aeronautics-systems/)
+
 Palmdale, CA
+
 *Jun 2018 - Aug 2018*
+
 - Supported tool engineering by tracking task progress, identifying delays, and improving workflow visibility through organized reporting.
 
 ## Education
@@ -85,14 +87,14 @@ Palmdale, CA
 **Bachelor of Science in Mechanical Engineering**  
 *Louisiana Tech University* | Graduated: 2019
 
-## Download my Resume for more details!
+## Download my Resume!
 <div class="resume-section">
   <a href="/assets/resume/resume.pdf" class="btn-resume" download>
     📄 Download My Resume
   </a>
 </div>
 
-## Contact Me and See my Online Presence
+## Contact Me
 <div class="contact-section">
   {% if site.author.email %}<p><strong>Email:</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>{% endif %}
   {% if site.author.github %}<p><strong>GitHub:</strong> <a href="https://github.com/{{ site.author.github }}">@{{ site.author.github }}</a></p>{% endif %}
