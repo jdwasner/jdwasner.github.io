@@ -57,6 +57,7 @@ The pipeline was designed to be robust, readable, and easy to maintain as report
 - Reduced daily metric report creation time from ~1 hour to ~5 minutes  
 - Enabled multiple teams to access up-to-date production metrics each morning  
 - Improved consistency and trust in reported metrics by standardizing transformations  
+- Provided the data foundation for the [Process Data Dashboard Creation](/projects/Process_Data_Dashboard_Creation) project
 
 ## Gallery
 

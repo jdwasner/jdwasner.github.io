@@ -4,7 +4,7 @@ title: Weather Weirdness Meter
 date: 2025-11-24
 description: Interactive app that compares current weather to historical hourly data and computes statistical "weirdness" for multiple conditions.
 featured: true
-featured_order: 3
+featured_order: 5
 featured_image: /assets/images/WeirdWx_Image05.png
 skills:
   - Python
