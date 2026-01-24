@@ -53,5 +53,4 @@ The resulting system allowed users to move directly from high-level metrics to d
 
 ## Code Repository
 
-Due to proprietary production data, source code is not publicly available.  
-This project is documented to demonstrate analytical methodology, feature engineering, and decision-support outcomes.
+Due to proprietary production data, source code is not publicly available.

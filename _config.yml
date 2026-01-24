@@ -67,12 +67,6 @@ kramdown:
 
 # Coming Soon Projects
 coming_soon_projects:
-  - title: "Daily Dashboard Building"
-    description: "Built robust dashboards in Power BI for daily data deep dives and KPIs"
-    skills:
-      - Power BI
-      - Power Query
-      - DAX
   - title: "Equipment Shifting Calculator"
     description: "Maintenance tool built in Excel to help ensure healthy equipment moves line-side"
     skills:

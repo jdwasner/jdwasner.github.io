@@ -65,6 +65,5 @@ The pipeline was designed to be robust, readable, and easy to maintain as report
 
 ## Code Repository
 
-Due to proprietary production systems and data, source code is not publicly available.  
-This project is documented to demonstrate ETL design, automation logic, and reporting impact.
+Due to proprietary production systems and data, source code is not publicly available.
 
