@@ -37,11 +37,7 @@ This interest in data also carried into my free time, where I started using thes
 
 ### Process Engineer
 
-[AESC US](https://us.aesc-group.com/)
-
-Smyrna, TN
-
-*Jul 2021 – Present*
+[AESC US](https://us.aesc-group.com/) | Smyrna, TN | *Jul 2021 – Present*
 
 - Built and maintained **Python (pandas) + SQL** pipelines to ingest, clean, validate, and transform high-volume manufacturing/equipment data (**500k+ rows/day**) into analysis-ready datasets (CSV/Parquet).
   - Check out the [Production Data ETL](/projects/production-data-etl/) project
@@ -58,30 +54,18 @@ Smyrna, TN
 
 ### Project Engineer
 
-[Walker Die Casting](https://www.walkerdiecasting.com/)
-
-Lewisburg, TN
-
-*Nov 2020 – Jul 2021*
+[Walker Die Casting](https://www.walkerdiecasting.com/) | Lewisburg, TN | *Nov 2020 – Jul 2021*
 - Led cross‑functional investigations to identify root causes of low‑profitability products, using structured problem‑solving and data‑driven analysis to guide operational improvements.
 
 ### Mechanical Engineer
 
-[Lockheed Martin - Missile and Fire Control (MFC)](https://www.lockheedmartin.com/en-us/who-we-are/business-areas/missiles-and-fire-control.html)
-
-Camden, AR
-
-*Aug 2019 – Nov 2020*
+[Lockheed Martin - Missile and Fire Control (MFC)](https://www.lockheedmartin.com/en-us/who-we-are/business-areas/missiles-and-fire-control.html) | Camden, AR | *Aug 2019 – Nov 2020*
 
 - Designed and optimized production tooling using structured requirements, tolerance analysis, and iterative testing to reduce manufacturing variation and defects.
 
 ### Technical Intern
 
-[Northrop Grumman - Aeronautics Systems](https://www.northropgrumman.com/who-we-are/business-sectors/aeronautics-systems/)
-
-Palmdale, CA
-
-*Jun 2018 - Aug 2018*
+[Northrop Grumman - Aeronautics Systems](https://www.northropgrumman.com/who-we-are/business-sectors/aeronautics-systems/) | Palmdale, CA | *Jun 2018 - Aug 2018*
 
 - Supported tool engineering by tracking task progress, identifying delays, and improving workflow visibility through organized reporting.
 
@@ -90,16 +74,20 @@ Palmdale, CA
 **Bachelor of Science in Mechanical Engineering**  
 *Louisiana Tech University* | Graduated: 2019
 
-## Download my Resume!
+## Additional Documents
 <div class="resume-section">
   <a href="/assets/resume/resume.pdf" class="btn-resume" download>
     📄 Download My Resume
   </a>
 </div>
 
-## Contact Me
-<div class="contact-section">
-  {% if site.author.email %}<p><strong>Email:</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>{% endif %}
-  {% if site.author.github %}<p><strong>GitHub:</strong> <a href="https://github.com/{{ site.author.github }}">@{{ site.author.github }}</a></p>{% endif %}
-  {% if site.author.linkedin %}<p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/{{ site.author.linkedin }}">{{ site.author.linkedin }}</a></p>{% endif %}
+<div class="contact-info">
+  <p>Interested in collaboration or have a project in mind? Let's connect!</p>
+  <p>
+    {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif %}
+    {% if site.author.github and site.author.linkedin %} | {% endif %}
+    {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif %}
+    {% if site.author.linkedin and site.author.email %} | {% endif %}
+    {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% endif %}
+  </p>
 </div>

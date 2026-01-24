@@ -76,7 +76,7 @@ coming_soon_projects:
     description: "Analysis of Ticket to Ride board game strategies using Monte Carlo simulations to determine optimal gameplay"
     skills:
       - Python
-      - NumPy
+      - Numpy
       - Matplotlib
   - title: "Sister Plant Misalignment Findings"
     description: "Comparison of sister plant process data to identify misalignments and areas for improvement"

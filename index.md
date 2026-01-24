@@ -52,7 +52,7 @@ I'm an engineer with a strong foundation in root cause analysis, large data, and
   <a href="/projects" class="btn-secondary">View All Projects</a>
 </div>
 
-## Download Resume
+## Additional Documents
 
 <div class="resume-section">
   <a href="/assets/resume/JustinWasnerResume.pdf" class="btn-resume" download>
