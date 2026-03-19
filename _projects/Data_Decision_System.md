@@ -27,7 +27,7 @@ Prior to DDS, manufacturing data was fragmented across multiple sources and acce
 - Investigations were slow, reactive, and often duplicated across departments  
 - Decision makers lacked timely visibility into production, quality, and equipment performance  
 
-As production issues arose, teams spent more time *finding and validating data* than *analyzing and acting on it*.
+As production issues arose, teams spent more time finding and validating data than analyzing and acting on it.
 
 ## Solution
 
