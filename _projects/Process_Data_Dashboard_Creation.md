@@ -4,7 +4,7 @@ title: Process Data Dashboard Creation
 date: 2023-01-20
 description: Automated Power BI dashboards that centralize production data and enable rapid root-cause analysis, reducing investigation time from days to hours for PE/QE teams.
 featured: true
-featured_order: 3
+featured_order: 4
 featured_image: /assets/images/ProcessDataDash_Image01.png
 skills:
   - Power BI

@@ -3,8 +3,8 @@ layout: project
 title: OEE Breakdown Analysis Dashboard
 date: 2025-05-01
 description: Designed and delivered an OEE breakdown dashboard that transformed existing equipment and downtime data into a clear, actionable view of top contributors to equipment losses
-featured: True
-featured_order: 4
+featured: false
+featured_order:
 skills:
   - Business Intelligence (BI)
   - SQL

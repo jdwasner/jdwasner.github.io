@@ -3,9 +3,9 @@ layout: project
 title: Material Splice Performance Analysis
 date: 2024-11-15
 description: Performed a comparative analysis of four continuous film materials to identify which material most strongly affected equipment output
-featured: false
-featured_order:
-featured_image:
+featured: true
+featured_order: 4
+featured_image: /assets/images/Material_Splice_04.png
 skills:
   - Python
   - Pandas
@@ -47,6 +47,9 @@ The approach included:
 
 This scoring-based approach allowed material effects to be compared consistently, even when multiple materials changed concurrently.
 
+![Script Flow](/assets/images/Material Splice Script Flow.png)
+*Flow diagram of script*
+
 ## Impact
 
 - Identified which material roll positions most strongly correlated with increased NG rates (Cathode and Anode)
@@ -56,7 +59,17 @@ This scoring-based approach allowed material effects to be compared consistently
 
 ## Gallery
 
-*Coming Soon!
+![Raw Data](/assets/images/Material_Splice_01.png)
+*Raw data for all 8 parameters to be analyzed*
+
+![Scored Data](/assets/images/Material_Splice_02.png)
+*Parameters with scored data: score depends on proximity to material change (0 is middle of material roll)*
+
+![NG Distribution Overlay](/assets/images/Material_Splice_03.png)
+*NG distribution based on positional score; NGs increase towards start and end of material changes*
+
+![Before and After Analysis](/assets/images/Material_Splice_04.png)
+*Improvement clearly shown in before and after analysis*
 
 ## Code Repository
 

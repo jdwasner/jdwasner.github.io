@@ -29,6 +29,9 @@ I designed and built a modular web application that centralizes data retrieval, 
 
 ## Key Features
 
+![Home Landing Page](/assets/images/OutlierAnalysisApp_Image15.png)
+*Home landing page with links to all 4 modules*
+
 ### Raw Module
 
 - Query raw parameter data by time, process, and parameter
@@ -45,8 +48,11 @@ I designed and built a modular web application that centralizes data retrieval, 
 ![Raw Heatmap](/assets/images/OutlierAnalysisApp_Image03.png)
 *Raw Heatmap: Same data set as raw plot but heatmap to show localized density*
 
-![MA & MSD](/assets/images/OutlierAnalysisApp_Image06.png)
+![MA & MSD](/assets/images/OutlierAnalysisApp_Image17.png)
 *Moving Average and Standard Deviation (with user input window size)*
+
+![MA by Equip](/assets/images/OutlierAnalysisApp_Image18.png)
+*Moving Average by Upstream Equipment*
 
 ![Autocorrelation](/assets/images/OutlierAnalysisApp_Image07.png)
 *Autocorrelation Analysis: See if any lags result in high correlation*
@@ -70,10 +76,19 @@ I designed and built a modular web application that centralizes data retrieval, 
 - Analyze time deltas, rework ratios, and IPQC/incoming inspection correlations
 - Highlights where suspect IDs deviate from normal population flow
 
-![Gene Treemap: Shows input ID list route distribution through process](/assets/images/OutlierAnalysisApp_Image05.png)
+![Gene Treemap: Shows input ID list route distribution through process](/assets/images/OutlierAnalysisApp_Image19.png)
 *Gene Treemap: Shows input ID list route distribution through process*
 
 - The "Vol Del" refers to Volume Delta which is the difference between the precent of suspect product that passed through that route vs the precent of process volume that passed through that route (a higher delta is more suspicious)
+
+### Group Module
+- Show groups of IDs overlayed on surrounding population
+
+![Group Page](/assets/images/OutlierAnalysisApp_Image20.png)
+*Group Page User Interface*
+
+![Trial Overlay](/assets/images/OutlierAnalysisApp_Image21.png)
+*Trial Overlay: showing performance of trial groups in downstream parameter*
 
 ### Corral Module
 
@@ -81,23 +96,20 @@ I designed and built a modular web application that centralizes data retrieval, 
 - Determine whether suspect IDs deviate from expected relationships
 - Visualizes population vs suspect behavior clearly
 
-![Raw Violin Plot](/assets/images/OutlierAnalysisApp_Image11.png)
+![Corral Page](/assets/images/OutlierAnalysisApp_Image22.png)
+*Corral Page User Interface*
+
+![Corral Scatter](/assets/images/OutlierAnalysisApp_Image23.png)
 *Correlation Scatter: Showing 2 Parameters on same plot*
 
-![Raw Violin Plot](/assets/images/OutlierAnalysisApp_Image12.png)
+![Corral Heatmap](/assets/images/OutlierAnalysisApp_Image24.png)
 *Correlation Heatmap: Showing Density of Correlation Scatter data*
 
-![Raw Violin Plot](/assets/images/OutlierAnalysisApp_Image13.png)
+![Downstream Series](/assets/images/OutlierAnalysisApp_Image25.png)
 *Downstream Parameter Time-Series: For Ensuring Clean Data Input*
 
-![Raw Violin Plot](/assets/images/OutlierAnalysisApp_Image14.png)
+![Upstream Series](/assets/images/OutlierAnalysisApp_Image26.png)
 *Upstream Parameter Time-Series: For Ensuring Clean Data Input*
-
-### Inspect Module
-
-- Compare offline vs online measurements
-- Regression, bias analysis, and agreement metrics
-- Supports calibration and spec‑setting decisions
 
 ## App Methodology
 

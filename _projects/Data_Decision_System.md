@@ -5,6 +5,7 @@ date: 2025-03-28
 description: Created dashboards for a centralized data decision system that delivered SQL-backed dashboards to multiple departments
 featured: False
 featured_order: 4
+featured_image: /assets/images/DDS_Image01.png
 skills:
   - SQL
   - KPI
@@ -49,7 +50,17 @@ The resulting system allowed users to move directly from high-level metrics to d
 
 ## Gallery
 
-*Coming Soon!*
+![Defect Rate](/assets/images/DDS_Image01.png)
+*Defect Rate Breakdown: shows 8, 4, & 2 week defect rate (defect count/volume); can see how things are trending*
+
+![Defect Rate](/assets/images/DDS_Image02.png)
+*Live production dashboard with target and previous day values by hour*
+
+![Defect Rate](/assets/images/DDS_Image03.png)
+*Film Material Thickness throughout Roll*
+
+![Defect Rate](/assets/images/DDS_Image04.png)
+*OK Rate KPI over time for multiple processes*
 
 ## Code Repository
 
