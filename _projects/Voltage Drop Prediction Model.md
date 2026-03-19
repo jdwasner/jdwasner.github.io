@@ -74,13 +74,13 @@ There are multiple improvements that can be made to the model, including:
 - Ensure the model can take messy data and return same quality
 
 ## Gallery
-![Linear Regression with Dominant](/assets/images/LinearR_Image01.png)
+![Linear Regression with Dominant](/assets/images/LinearR_Image_01.png)
 *Linear relationship between K_Value (target) and the dominant upstream predictor (SM_LASSC_PR001).* 
 
-![Residual Distribution](/assets/images/LinearR_Image02.png)
+![Residual Distribution](/assets/images/LinearR_Image_02.png)
 *Residual distribution for the linear model (used to estimate prediction uncertainty).* 
 
-![Linear with Generalization](/assets/images/LinearR_Image03.png)
+![Linear with Generalization](/assets/images/LinearR_Image_03.png)
 *Linear model overlay on test data showing generalization on the most recent period.*
 
 ## Code Repository
