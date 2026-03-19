@@ -3,7 +3,7 @@ layout: project
 title: Voltage Drop Prediction Model
 date: 2026-01-12
 description: Project description
-featured: false
+featured: true
 featured_order: 2
 featured_image: /assets/images/LinearR_Image_03.png
 skills:

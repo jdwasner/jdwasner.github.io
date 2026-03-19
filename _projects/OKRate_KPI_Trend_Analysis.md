@@ -3,8 +3,8 @@ layout: project
 title: OK Rate KPI Trend Analysis
 date: 2024-05-01
 description: Developed a suite of dashboards focused on OK Rate (yield) performance across entire production line and individual equipment
-featured: True
-featured_order: 6
+featured: false
+featured_order:
 skills:
   - Business Intelligence (BI)
   - SQL

@@ -4,7 +4,7 @@ title: Material Splice Performance Analysis
 date: 2024-11-15
 description: Performed a comparative analysis of four continuous film materials to identify which material most strongly affected equipment output
 featured: true
-featured_order: 4
+featured_order: 3
 featured_image: /assets/images/Material_Splice_04.png
 skills:
   - Python
