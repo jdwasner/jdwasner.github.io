@@ -4,8 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-# Data Science Projects
+# Data Projects
 Explore my portfolio of data projects. Each project demonstrates different aspects of data from simple plots to advanced regression machine learning implementations.
+
+You can use the filter below to see projects tagged with specific skills. Projects are sorted newest to oldest.
 
 <!-- Skill Filter -->
 <div class="skill-filter">

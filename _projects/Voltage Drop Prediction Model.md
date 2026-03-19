@@ -2,7 +2,7 @@
 layout: project
 title: Voltage Drop Prediction Model
 date: 2026-01-12
-description: Project description
+description: Built an interpretable ML model predicting voltage drop before final test using upstream process data, achieving 25–30% error reduction with quantified uncertainty.
 featured: true
 featured_order: 2
 featured_image: /assets/images/LinearR_Image_03.png

@@ -4,6 +4,8 @@ title: Home
 ---
 Hi, I'm **Justin Wasner**, an engineer specializing in statistical analysis and data visualization. I enjoy building analysis workflows and dashboards that translate messy data into decisions stakeholders can act on.
 
+I'm currently expanding my skills into machine learning and predictive modeling through self-directed study and hands-on projects. I'm exploring how to apply ML techniques to real manufacturing and operational problems—from feature engineering and model evaluation to uncertainty quantification and deployment considerations.
+
 I'm located in the Nashville metropolitan area and currently exploring opportunities in the data field. If you're looking for someone to support analytics, reporting, or data-driven product work, feel free to reach out; my email and linkedin is linked above.
 
 Take a look at my featured projects below. You can see all of my projects and more about me using the links above.
