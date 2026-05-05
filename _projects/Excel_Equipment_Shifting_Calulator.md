@@ -3,8 +3,9 @@ layout: project
 title: Excel Equipment Shifting Calculator
 date: 2024-11-15
 description: Built an Excel tool that translated machine adjustments into expected measurement changes, using historical data to guide faster and more accurate corrections.
-featured: false
+featured: true
 featured_order: 2
+featured_image: /assets/images/Excel Equip Calc Image 004.png
 skills:
   - Power Query
   - Excel
