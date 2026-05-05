@@ -4,7 +4,7 @@ title: Data Decision System (DDS) Dashboards
 date: 2025-03-28
 description: Created dashboards for a centralized data decision system that delivered SQL-backed dashboards to multiple departments
 featured: true
-featured_order: 4
+featured_order: 3
 featured_image: /assets/images/DDS_Image01.png
 skills:
   - SQL
