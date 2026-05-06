@@ -18,8 +18,7 @@ I built an Excel-based decision tool to help engineers and technicians make equi
 
 In simple terms: instead of guessing which knob to move and by how much, users could test adjustments in the calculator first and see the predicted outcome before touching the machine.
 
-This calculator gets its data from the [Production Data ETL](/projects/Production_Data_ETL/) project, which uses Python to pull and process production data every 24 hours.
-
+This calculator gets its data from the [Production Data ETL](/projects/production-data-etl/) project, which uses Python to pull and process production data every 24 hours.
 
 ## Problem
 
@@ -30,7 +29,6 @@ Before this tool, equipment adjustments were slow and error-prone:
 - Small translation mistakes led to extra downtime and repeated trial-and-error
 
 Even experienced engineers could misinterpret direction changes across stations, especially during urgent troubleshooting.
-
 
 ## Solution
 
@@ -54,7 +52,6 @@ For example, at **R160 Setdown**, a move in **+Y** (system coordinates) maps to 
 ![Production line segment diagram](/assets/images/Excel Equip Calc Image 003.png)
 *Process map for one line segment, used to validate station-to-station transformations*
 
-
 Users interacted with the tool by entering trial adjustment values in **yellow cells** and reviewing predicted outcomes in **green cells**.
 
 ![Calculator input/output view](/assets/images/Excel Equip Calc Image 004.png)
@@ -72,7 +69,6 @@ This calculator became a weekly troubleshooting tool for both maintenance and en
 - Improved first-pass accuracy by grounding decisions in historical data
 - Lowered avoidable downtime caused by coordinate translation mistakes
 - Provided a repeatable process that was easier to train and hand off
-
 
 ## Code Repository
 
