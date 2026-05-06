@@ -21,7 +21,7 @@ Process and quality engineers spent hours manually consolidating data from dispa
 
 ## Solution
 
-I designed and deployed a suite of Power BI dashboards that became the department's central investigation platform. Built on top of the [Production Data ETL pipeline](/projects/Production_Data_ETL), these dashboards leverage clean, standardized datasets to enable rapid analysis. Using Power Query for automated data ingestion and DAX for complex measure calculations, I built repeatable workflows that:
+I designed and deployed a suite of Power BI dashboards that became the department's central investigation platform. Built on top of the [Production Data ETL pipeline](/projects/production-data-etl), these dashboards leverage clean, standardized datasets to enable rapid analysis. Using Power Query for automated data ingestion and DAX for complex measure calculations, I built repeatable workflows that:
 
 - **Centralized multi-source data** into a single interface, eliminating manual CSV wrangling
 - **Automated refresh cycles** to ensure engineers always worked with current production data
