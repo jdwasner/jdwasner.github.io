@@ -61,7 +61,8 @@ The pipeline was designed to be robust, readable, and easy to maintain as report
 
 ## Gallery
 
-*Coming Soon!*
+![Multi-ScatterPlot with Filters](/assets/images/Production Daily ETL Diagram.png)
+*Flow Chart for Daily ETL Process ran by Python Script*
 
 ## Code Repository
 
